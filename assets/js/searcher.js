@@ -5,7 +5,7 @@ let htmlTotal = "";
 let sitio = document.getElementById('inyectar')
 
 let loadProducts = () => {
-  let URLxml = 'https://raw.githubusercontent.com/Bootcamp-Espol/FSD02/main/S03D03/clase/recursos/products.xml'
+  let URLxml = 'https://raw.githubusercontent.com/Bootcamp-Espol/Datos/main/products.xml'
 
   let requestXml = async ( myURL ) => {
 
@@ -66,7 +66,7 @@ let loadProducts = () => {
   
   
   
-  let URLjson = `https://raw.githubusercontent.com/Bootcamp-Espol/FSD02/main/S03D03/clase/recursos/products.json`
+  let URLjson = `https://raw.githubusercontent.com/Bootcamp-Espol/Datos/main/products.json`
 
   let requestJson = async ( myURL ) => {
 
